@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-image: linear-gradient(to right, #051421, #042727);
+}
+
+h1,
+p {
+  font-family: Lato;
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
